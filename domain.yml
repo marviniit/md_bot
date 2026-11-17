@@ -1,0 +1,15 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_mcdonalds_info
+
+responses:
+  utter_greet:
+    - text: "Welcome to McDonald's AI Assistant! Ask me about our burgers' nutrition or food safety policies."
+  utter_goodbye:
+    - text: "Have a nice meal! Goodbye."
+
+actions:
+  - action_query_mcdonalds

@@ -1,0 +1,24 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - Hello
+    - Hi
+    - Good morning
+
+- intent: goodbye
+  examples: |
+    - Bye
+    - See you
+    - Quit
+
+- intent: ask_mcdonalds_info
+  examples: |
+    - How much protein is in the Angus Original?
+    - Tell me about allergens
+    - Is your food safe?
+    - What is the energy content of a Big Mac?
+    - Do you have vegetarian options?
+    - Nutrition info for cheeseburger
+    - Contact customer service
